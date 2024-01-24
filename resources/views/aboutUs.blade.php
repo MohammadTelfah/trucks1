@@ -2725,6 +2725,7 @@
                                                                                     onerror="handleImageLoadError(this)"
                                                                                     height="320.0"
                                                                                     width="460.0" /></a>
+
                                                                         </div>
                                                                     </div>
                                                                     <div class="dmRespCol large-6 medium-6 small-12"
@@ -2761,30 +2762,48 @@
                                                                                     all our valued customers!</span>
                                                                             </div>
                                                                             <div><span
-                                                                                style="background-color: transparent;"><br /></span>
-                                                                        </div>
-                                                                            <div><span
-                                                                                    style="background-color: transparent;">
-                                                                                    <h3 class="u_1819132408 dmNewParagraph"
-                                                                            data-element-type="paragraph"
-                                                                            id="1819132408"
-                                                                            style="transition: opacity 1s ease-in-out 0s;">
-                                                                            Winching</h3>
-                                                                            
-                                                                                    Our towing services go beyond the basics, offering expert winching solutions for vehicles stuck in challenging conditions. Whether it's mud, snow, or rough terrain, our skilled team uses top-notch equipment to safely extract your vehicle, ensuring a prompt and stress-free resolution.
-                                                                                    </span>
+                                                                                    style="background-color: transparent;"><br /></span>
                                                                             </div>
                                                                             <div><span
-                                                                                style="background-color: transparent;"><br /></span>
-                                                                        </div>
+                                                                                    style="background-color: transparent;">
+                                                                                    <h3 class="u_1819132408 dmNewParagraph"
+                                                                                        data-element-type="paragraph"
+                                                                                        id="1819132408"
+                                                                                        style="transition: opacity 1s ease-in-out 0s;">
+                                                                                        Winching</h3>
+
+                                                                                    Our towing services go beyond the
+                                                                                    basics, offering expert winching
+                                                                                    solutions for vehicles stuck in
+                                                                                    challenging conditions. Whether it's
+                                                                                    mud, snow, or rough terrain, our
+                                                                                    skilled team uses top-notch
+                                                                                    equipment to safely extract your
+                                                                                    vehicle, ensuring a prompt and
+                                                                                    stress-free resolution.
+                                                                                </span>
+                                                                            </div>
+                                                                            <div><span
+                                                                                    style="background-color: transparent;"><br /></span>
+                                                                            </div>
                                                                             <div><span
                                                                                     style="background-color: transparent;">
                                                                                     <h3 class="u_1819132408 dmNewParagraph"
-                                                                            data-element-type="paragraph"
-                                                                            id="1819132408"
-                                                                            style="transition: opacity 1s ease-in-out 0s;">
-                                                                            Tire Changing</h3>
-                                                                                    Experience a quick and reliable solution to flat tires with our dedicated towing services. Our skilled technicians swiftly replace damaged tires with spares, prioritizing efficiency and quality service. Trust us to handle your tire changing needs, getting you back on the road with confidence in no time.</span>
+                                                                                        data-element-type="paragraph"
+                                                                                        id="1819132408"
+                                                                                        style="transition: opacity 1s ease-in-out 0s;">
+                                                                                        Tire Changing</h3>
+                                                                                    Experience a quick and reliable
+                                                                                    solution to flat tires with our
+                                                                                    dedicated towing services. Our
+                                                                                    skilled technicians swiftly replace
+                                                                                    damaged tires with spares,
+                                                                                    prioritizing efficiency and quality
+                                                                                    service. Trust us to handle your
+                                                                                    tire changing needs, getting you
+                                                                                    back on the road with confidence in
+                                                                                    no time.
+                                                                                </span>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -6499,8 +6518,8 @@
                         icon = '<span class="icon-container">' + getItemIcon(item) + '</span>';
                         html +=
                             '<div class="fab child" id="child-' + index + '" data-subitem="' + index + '"> \
-                                                                    ' + getItemAction(item, icon + label) + ' \
-                                                                </div>';
+                                                                        ' + getItemAction(item, icon + label) + ' \
+                                                                    </div>';
 
                         if (item.Action === 'Share') {
                             $.getScript('https://cdn.jsdelivr.net/npm/micromodal/dist/micromodal.min.js',
@@ -6523,8 +6542,8 @@
                             icon = '<span class="icon-container">' + getItemIcon(item) + '</span>';
                             html +=
                                 '<div class="fab child" id="child-' + index + '" data-subitem="' + index + '"> \
-                                                                    ' + getItemAction(item, icon + label) + ' \
-                                                                </div>';
+                                                                        ' + getItemAction(item, icon + label) + ' \
+                                                                    </div>';
                         }
                         // floating icons on desktop only
                         else {
@@ -6535,16 +6554,17 @@
                             text = '<span class="float-text" id="text-' + index + '">' + label + '</span>';
                             html +=
                                 '<div class="float-container ' + focusClass + '" id="' + index + '"> \
-                                                                    <span class="fab child float" id="child-' + index +
+                                                                        <span class="fab child float" id="child-' + index +
                                 '" data-subitem="' +
                                 index + '" style="display: inline-flex;"> \
-                                                                        ' + getItemAction(item, icon) + ' \
-                                                                    </span> \
-                                                                    <span class="float-text-container" id="float-text-' +
+                                                                            ' + getItemAction(item, icon) +
+                                ' \
+                                                                        </span> \
+                                                                        <span class="float-text-container" id="float-text-' +
                                 index + '"> \
-                                                                        ' + getItemAction(item, text) + ' \
-                                                                    </span> \
-                                                                </div>';
+                                                                            ' + getItemAction(item, text) + ' \
+                                                                        </span> \
+                                                                    </div>';
                         }
                         // if action is share add share items to modal
                         if (item.Action === 'Share') {
@@ -6602,60 +6622,60 @@
                         statsEventName = 'CM_SHARE_EMAIL';
                         return (
                             '<div class="social-icon" style="background-color: grey;"> \
-                                                                    <a href="' + href + '" class="' + linkClass +
+                                                                        <a href="' + href + '" class="' + linkClass +
                             '" onclick="_trackConvWidgetClickEvent(\'' +
                             statsEventName + '\');;"> \
-                                                                        ' + getSvg('shareenvelope') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                            ' + getSvg('shareenvelope') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     case 'Facebook':
                         href = 'https://www.facebook.com/sharer/sharer.php?u=' + link;
                         statsEventName = 'CM_SHARE_FB';
                         return (
                             '<div class="social-icon" style="background-color: #3b5998;"> \
-                                                                    <a href="' + href + '" class="' + linkClass +
+                                                                        <a href="' + href + '" class="' + linkClass +
                             '" target="_blank" onclick="_trackConvWidgetClickEvent(\'' + statsEventName + '\');"> \
-                                                                        ' + getSvg('facebook') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                            ' + getSvg('facebook') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     case 'Tumblr':
                         href = 'http://tumblr.com/share/link?url=' + link + '&name=' + encodedTitle;
                         return (
                             '<div class="social-icon" style="background-color: #35465c;"> \
-                                                                    <a href="' + href + '" class="' + linkClass + '" target="_blank" > \
-                                                                        ' + getSvg('tumblr') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                        <a href="' + href + '" class="' + linkClass + '" target="_blank" > \
+                                                                            ' + getSvg('tumblr') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     case 'LinkedIn':
                         href = 'http://www.linkedin.com/shareArticle?mini=true&amp;url=' + link + '&amp;title=' +
                             encodedTitle;
                         statsEventName = 'CM_SHARE_LINKEDIN';
                         return (
                             '<div class="social-icon" style="background-color: #4875B4;"> \
-                                                                    <a href="' + href + '" class="' + linkClass +
+                                                                        <a href="' + href + '" class="' + linkClass +
                             '" target="_blank" onclick="_trackConvWidgetClickEvent(\'' + statsEventName + '\');"> \
-                                                                        ' + getSvg('linkedIn') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                            ' + getSvg('linkedIn') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     case 'Twitter':
                         href = 'https://twitter.com/intent/tweet?text=' + link;
                         statsEventName = 'CM_SHARE_TWITTER';
                         return (
                             '<div class="social-icon" style="background-color: #33CCFF;"> \
-                                                                    <a href="' + href + '" class="' + linkClass +
+                                                                        <a href="' + href + '" class="' + linkClass +
                             '" target="_blank" onclick="_trackConvWidgetClickEvent(\'' + statsEventName + '\');"> \
-                                                                        ' + getSvg('twitter') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                            ' + getSvg('twitter') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     case 'Reddit':
                         href = 'http://www.reddit.com/submit?url=' + link + '&title=' + encodedTitle + '&text=' +
                             encodedTitle;
                         return (
                             '<div class="social-icon" style="background-color: #ff4500;"> \
-                                                                    <a href="' + href + '" class="' + linkClass + '" target="_blank"> \
-                                                                        ' + getSvg('reddit') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                        <a href="' + href + '" class="' + linkClass + '" target="_blank"> \
+                                                                            ' + getSvg('reddit') + ' \
+                                                                        </a> \
+                                                                    </div>');
                         /* case 'GooglePlus':
                              href = 'https://plus.google.com/share?url='+link;
                              statsEventName = 'CM_SHARE_GOOGLE_PLUS';
@@ -6670,10 +6690,10 @@
                             encodedTitle;
                         return (
                             '<div class="social-icon" style="background-color: #cb2027;"> \
-                                                                    <a href="' + href + '" class="' + linkClass + '" target="_blank"> \
-                                                                        ' + getSvg('pinterest') + ' \
-                                                                    </a> \
-                                                                </div>');
+                                                                        <a href="' + href + '" class="' + linkClass + '" target="_blank"> \
+                                                                            ' + getSvg('pinterest') + ' \
+                                                                        </a> \
+                                                                    </div>');
                     default:
                         return '';
                 }
