@@ -2894,7 +2894,7 @@
                                                                     id="1207194434">
                                                                     <div class="u_1413682523 widget-7b6cfb dmCustomWidget"
                                                                         style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">
-                                                                        <a data-yext-field="4093632579" class=""
+                                                                        <a data-yext-field="4093632579" class="" href="tel:(409) 363-2579"
                                                                             style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">
                                                                             <span class="text"
                                                                                 style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">(409)
@@ -3164,7 +3164,7 @@
                                                                             <div class="u_1413682523 widget-7b6cfb dmCustomWidget"
                                                                                 style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">
                                                                                 <a data-yext-field="4093632579"
-                                                                                    class=""
+                                                                                    class="" href="tel:(409) 363-2579"
                                                                                     style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">
                                                                                     <span class="text"
                                                                                         style="border: none; font-size: 30px; font-weight: bold; color:white; float: left;">(409)
@@ -3326,7 +3326,7 @@
                                                                                         <p class="calloutSubhead">Calls
                                                                                             Response Within 30
                                                                                             Minuites</p>
-                                                                                        <p
+                                                                                        <p href="tel:(409) 363-2579"
                                                                                             class="CTAdesktop hide-mobile">
                                                                                             (409) 363-2579</p>
                                                                                         <span class="hide-desktop"> <a
@@ -3336,7 +3336,7 @@
                                                                                                 raw_url="tel:(409) 363-2579">
                                                                                                 <div
                                                                                                     class="dmWidget calloutCTA">
-                                                                                                    <span
+                                                                                                    <span href="tel:(409) 363-2579"
                                                                                                         class="text">(409)
                                                                                                         363-2579</span>
                                                                                                     <span
@@ -5453,7 +5453,7 @@
                             statsEventName + '\');">' + elem + '</a>';
                     case 'Map':
                         statsEventName = 'CM_DIRECTION';
-                        return '<a target="_blank" href="https://www.google.com/maps?q=30.070587158203125,-94.14920806884766&z=17&hl=en" class="menu-link" onclick="_trackConvWidgetClickEvent(\'' +
+                        return '<a target="_blank" href="https://www.google.com/maps/place/5195+Fannin+St,+Beaumont,+TX+77707,+USA/@30.0708272,-94.1494365,17z/data=!3m1!4b1!4m6!3m5!1s0x863ecb5aa3233265:0xd14464978f45c3f6!8m2!3d30.0708272!4d-94.1494365!16s%2Fg%2F11vs7_13_c?entry=ttu" class="menu-link" onclick="_trackConvWidgetClickEvent(\'' +
                             statsEventName + '\');">' +
                             elem + '</a>';
                     case 'Mess':
