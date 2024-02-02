@@ -7390,7 +7390,7 @@ s2.9-16,5-16c2.1,0,5,6.1,5,16S55.1,51,53,51z" id="1428224035"></path>
             function getSocialItems(item) {
                 let html = '';
                 const content = getShareContent(item);
-                if (item.Email) html += getShareHtml('Email', content.link, content.title, 'Tab', 'social');
+                if (item.Email) html += getShareHtml('Email', 'Rmktowing@gmail.com', content.title, 'Tab', 'social');
                 if (item.Facebook) html += getShareHtml('Facebook', content.link, content.title, 'Tab', 'social');
                 if (item.Tumblr) html += getShareHtml('Tumblr', content.link, content.title, 'Tab', 'social');
                 if (item.LinkedIn) html += getShareHtml('LinkedIn', content.link, content.title, 'Tab', 'social');
@@ -7594,7 +7594,7 @@ s2.9-16,5-16c2.1,0,5,6.1,5,16S55.1,51,53,51z" id="1428224035"></path>
                             elem + '</a>';
                     case 'Email':
                         statsEventName = 'CM_CLICK_TO_EMAIL';
-                        return '<a href="mailto:' + item.EmailAddr + '?subject=' + item.emailDefSubject + '&body=' +
+                        return '<a href="mailto:' + 'Rmktowing@gmail.com' + '?subject=' + item.emailDefSubject + '&body=' +
                             item.defEmailBody +
                             '" target="_blank" class="menu-link" onclick="_trackConvWidgetClickEvent(\'' +
                             statsEventName + '\');">' + elem + '</a>';
